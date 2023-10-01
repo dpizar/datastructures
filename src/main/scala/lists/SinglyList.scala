@@ -17,7 +17,6 @@ class SinglyList[T <: AnyVal] {
     }
     length += 1
 
-
   def appendToTail(value: T): Unit =
     val tailNode = Some(SimpleNode(value, None))
     head match {

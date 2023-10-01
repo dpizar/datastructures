@@ -6,7 +6,7 @@ import org.scalatest.matchers.should.Matchers
 
 class SinglyListTest extends AnyFlatSpec with Matchers {
   behavior of "appendToHead Function"
-
+  
   it should "Append a SimpleNode to the head of an empty SinglyList" in {
     val valueToAppend = 8
     val singlyList = SinglyList[Int]
